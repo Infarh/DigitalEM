@@ -5,8 +5,12 @@ namespace EM.FDTD
     {
         /// <summary>Электрическая стенка (Et = 0)</summary>
         PMC = 0,
-        /// <summary>Абсолютно поглащающая стенка</summary>
-        ABC = 1,
-
+        /// <summary>Абсолютно поглащающая стенка для поля E</summary>
+        ABC_E = 1,
+        /// <summary>Абсолютно поглащающая стенка для поля H</summary>
+        ABC_H = 2,
+        /// <summary>Идеально-согласованные слои</summary>
+        PML = 3,
+        Periodic = 4
     }
 }

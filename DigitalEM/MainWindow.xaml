@@ -67,6 +67,7 @@
                                         Layer="AboveSeries"/>
                     </oxy:Plot.Axes>
                     <oxy:HeatMapSeries Data="{Binding Field}" X0="0" X1="200" Y0="0" Y1="250" />
+                    <oxy:ScatterSeries/>
                 </oxy:Plot>
             </Grid>
         </Grid>

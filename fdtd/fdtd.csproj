@@ -41,8 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BoundaryType.cs" />
+    <Compile Include="FieldSource.cs" />
     <Compile Include="Solver1D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpaceCell.cs" />
     <Compile Include="SpaceCharacteristic.cs" />
   </ItemGroup>
   <ItemGroup>
